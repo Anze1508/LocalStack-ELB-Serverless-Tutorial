@@ -199,5 +199,15 @@ resources:
         CidrBlock: 12.2.1.0/24
 ```
 
+## Creating the infrastructure on LocalStack
+
+### Deploy the Serverless project and verify the resources created in LocalStack. Run the following command:
+```
+npm run deploy
+```
+
+
+
+
 
 
