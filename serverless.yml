@@ -1,0 +1,21 @@
+service: serverless-elb
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+
+functions:
+  hello:
+    handler: handler.hello
+
+plugins:
+  - serverless-deployment-bucket
+  - serverless-localstack
+
+custom:
+  localstack:
+    stages:
+      - local
