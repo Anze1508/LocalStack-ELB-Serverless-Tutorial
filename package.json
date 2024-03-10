@@ -1,0 +1,17 @@
+{
+  "name": "serverless-elb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "sls deploy --stage local"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^3.25.0",
+    "serverless-deployment-bucket": "^1.6.0",
+    "serverless-localstack": "^1.0.1"
+  }
+}
