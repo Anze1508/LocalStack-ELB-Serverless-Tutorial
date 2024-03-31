@@ -1,3 +1,5 @@
+_Followed a guide on: https://docs.localstack.cloud/tutorials/elb-load-balancing/_
+
 # Setting up Elastic Load Balancing (ELB) Application Load Balancers using LocalStack, deployed via the Serverless framework
 
 ## This project demonstrates setting up Elastic Load Balancing (ELB) using LocalStack, focusing on creating a load balancer to distribute traffic among multiple instances of a Node.js Lambda function.
